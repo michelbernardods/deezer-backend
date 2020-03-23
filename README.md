@@ -54,7 +54,9 @@ https://github.com/michelbernardods/deezer-frontend
 - Run As -> Java Aplication.
 - Iniciar o Postgresql com PgAdmin 
 
+##### Criar uma tabela com o nome descrito no arquivo ( aplication.properties )
 ##### Se o seu Postgresql estiver rodando na porta 5432 você precisa mudar no arquivo ( aplication.properties )
+
 
 
 #### Customize configuration
