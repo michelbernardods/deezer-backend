@@ -36,6 +36,7 @@ Todas as informações serão obtidas pela API pública do Deezer: https://api.d
 -> Backend : Java 
 -> Frontend : PostgresSql
 
+
 # Requisítos 
 
 Para acessar o banco de dados, precisa instalar o Postgresql:
@@ -51,6 +52,7 @@ https://github.com/michelbernardods/deezer-frontend
 
 - Importar o arquivo .zip no Java.
 - Run As -> Java Aplication.
+- Iniciar o Postgresql com PgAdmin 
 
 ##### Se o seu Postgresql estiver rodando na porta 5432 você precisa mudar no arquivo ( aplication.properties )
 
