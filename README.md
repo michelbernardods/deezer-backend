@@ -42,32 +42,18 @@ Para acessar o banco de dados, precisa instalar o Postgresql:
 https://www.postgresql.org/download/
 
 Para acessar o Front end precisa baixar o repositório: 
-https://github.com/michelbernardods/deezer-backend
+https://github.com/michelbernardods/deezer-frontend
 
 ##### OBS: Muito importante iniciar o backend antes do frontend!
 
 
-# Instalação
+# Iniciar o backend 
 
-#### Project setup
-```
-npm install
-```
+- Importar o arquivo .zip no Java.
+- Run As -> Java Aplication.
 
-#### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##### Se o seu Postgresql estiver rodando na porta 5432 você precisa mudar no arquivo ( aplication.properties )
 
-#### Compiles and minifies for production
-```
-npm run build
-```
-
-#### Lints and fixes files
-```
-npm run lint
-```
 
 #### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
