@@ -61,3 +61,14 @@ https://github.com/michelbernardods/deezer-frontend
 
 #### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 💻 Preview
+
+<h1 align="center">
+    <img alt="Be The Hero" src="https://github.com/michelbernardods/deezer-frontend/blob/master/1.png"  />
+    <img alt="Be The Hero" src="https://github.com/michelbernardods/deezer-frontend/blob/master/2.png"  />
+    <img alt="Be The Hero" src="https://github.com/michelbernardods/deezer-frontend/blob/master/4.png"  />
+    <img alt="Be The Hero" src="https://github.com/michelbernardods/deezer-frontend/blob/master/3.png"  />
+</h1>
+
+
