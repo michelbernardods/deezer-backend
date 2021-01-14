@@ -8,54 +8,48 @@
   ☕ Code and coffee
 </h4>
 
-<h3 align="center">
-  #java #springboot #apirest #api #eclipse #devtools #mvp #web #jpa #postgresql #deezer
-</h3>
+## 💻 Project
 
-Linkedin : https://www.linkedin.com/in/michel-bernardo/
+Create a search page where we can search for the artist's name.
 
-## 💻 Projeto
+All queries will be saved in the database to generate statistics.
 
-Criar uma página de busca onde podemos fazer consultas pelo nome do artista. 
+To display the records, a REST API must be created which will return the following fields in JSON format:  
+   - Name searched;
+   - Date and time of the survey in the format 00/00/0000 00:00:00 (DD / MM / YYYY HH: MM: SS)
+   
+Desired features:
 
-Todas as consultas serão salvas no banco de dados para gerar estatísticas.
-
-Para exibir esses registros, deverá ser criado uma API REST que retornara os seguintes campos no formato JSON:
-  - Nome pesquisado;
-  - Data e hora da pesquisa no formato 00/00/0000 00:00:00 (DD/MM/YYYY HH:MM:SS)
-
-Funcionalidades desejadas:
-
-Todas as informações serão obtidas pela API pública do Deezer: https://api.deezer.com/search/?q=linkinpark
-- Deverá aparecer os nomes das músicas separados por álbum;
-- Abrir página da músicas ao clicar em cima;
-- Permitir ordenação por álbum e ranking;
-- Página responsiva;
-- Todos as buscas deverão ser salvar no banco de dados;
+All information will be obtained through the Deezer public API: https://api.deezer.com/search/?q=linkinpark
+- The names of the songs should appear, separated by album;
+- Open the music page by clicking on it;
+- Allow sorting by album and ranking;
+- Responsive page;
+- All searches must be saved in the database;
 
 -> Backend : Java 
 -> Frontend : PostgresSql
 
 
-# Requisítos 
+# Requirements 
 
-Para acessar o banco de dados, precisa instalar o Postgresql:
+To access the database, you need to install Postgresql:
 https://www.postgresql.org/download/
 
-Para acessar o Front end precisa baixar o repositório: 
+To access the Front end you need to download the repository:
 https://github.com/michelbernardods/deezer-frontend
 
-##### OBS: Muito importante iniciar o backend antes do frontend!
+##### OBS: Very important to start the backend before the frontend!
 
 
-# Iniciar o backend 
+# Start the backend 
 
-- Importar o arquivo .zip no Java.
-- Run As -> Java Aplication.
-- Iniciar o Postgresql com PgAdmin 
+- Import the .zip file into Java.
+- Run As -> Java Application.
+- Start Postgresql with PgAdmin 
 
-##### Criar uma tabela com o nome descrito no arquivo ( aplication.properties )
-##### Se o seu Postgresql estiver rodando na porta 5432 você precisa mudar no arquivo ( aplication.properties )
+##### Create a table with the name written in the file (aplication.properties)
+##### If your Postgresql is running on port 5432 you need to change it in the file (aplication.properties)
 
 
 
